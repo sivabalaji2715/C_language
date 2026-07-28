@@ -9,17 +9,17 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    // Assume the first element is the largest
+
     largest = arr[0];
 
-    // Find the largest element
+    
     for (i = 1; i < 10; i++) {
         if (arr[i] > largest) {
             largest = arr[i];
         }
     }
 
-    // Display the largest element
+    
     printf("Largest element = %d\n", largest);
 
     return 0;
