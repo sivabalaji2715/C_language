@@ -4,14 +4,14 @@ int main() {
     float num1, num2;
     char op;
 
-    // Input
+    
     printf("Enter an operator (+, -, *, /): ");
     scanf(" %c", &op);
 
     printf("Enter two numbers: ");
     scanf("%f %f", &num1, &num2);
 
-    // Perform calculation
+    
     switch (op) {
         case '+':
             printf("Result = %.2f\n", num1 + num2);
