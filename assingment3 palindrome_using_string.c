@@ -4,16 +4,16 @@ int main() {
     char str[100];
     int i, length = 0, palindrome = 1;
 
-    // Input string
+    
     printf("Enter a string: ");
     scanf("%99s", str);
 
-    // Find string length
+
     while (str[length] != '\0') {
         length++;
     }
 
-    // Check palindrome
+    
     for (i = 0; i < length / 2; i++) {
         if (str[i] != str[length - 1 - i]) {
             palindrome = 0;
@@ -21,7 +21,7 @@ int main() {
         }
     }
 
-    // Display result
+    
     if (palindrome)
         printf("%s is a Palindrome.\n", str);
     else
