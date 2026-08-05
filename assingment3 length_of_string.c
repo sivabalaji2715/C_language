@@ -13,11 +13,11 @@ int stringLength(char str[]) {
 int main() {
     char str[100];
 
-    // Input string
+    
     printf("Enter a string: ");
     scanf("%99s", str);
 
-    // Find and print length
+    
     printf("Length of the string = %d\n", stringLength(str));
 
     return 0;
